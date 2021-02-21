@@ -1,0 +1,572 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root{
+  /*===== Colores =====*/
+  --first-color:#0000FE;
+  --first-color-light: #A49EAC;
+  --first-color-lighten: #F2F2F2;
+  --first-color-secondray:#0000c7 ;
+
+
+  /*===== Font and typography =====*/
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+}
+
+
+/* navigation bar*/
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top:auto;
+    margin-left: 5px;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+    margin-top:10px;
+    font-size: 13px;
+    
+}
+
+.navbar {
+    background-color: rgb(20, 2, 2);
+    position: fixed;
+    z-index: 1;
+  
+}
+
+
+
+.nav-link{
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  text-align: left;
+ color: snow;
+ 
+}
+
+/* page landing*/
+
+.landing_page {
+    margin-bottom: 50px;
+
+}
+
+.box_landing {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.text_landingpage{
+    margin-top: 130px;
+}
+
+.biru-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.text_jumbotron {
+    font-weight: bold; 
+    line-height: 4rem; 
+    margin-top: -40px; 
+    color:#383737; 
+    font-size: 60px;
+    
+}
+
+.text_p1 {
+   margin-left: 2px; 
+   color:rgb(158, 162, 165);
+   margin-top: 35Px;
+   margin-bottom: 15px;
+   font-size: 15px;
+}
+
+
+.img-page1{
+    height:auto;
+    width:auto;  
+    float: right; 
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/*For the job */
+
+.jumbotron .card {
+  border-style: none;
+  
+}
+
+.text_job {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text_job::after {
+  content: '';
+  height: 5px; /* this works like a border-width */
+  width: 150px; /* you can use a percentage of parent or fixed px value */
+  background:#0000FE; /* the color of border */
+  position: absolute;
+  bottom: 25px; /* position it at the bottom of parent */
+  margin: 0 auto; left: 1px; right: 0; /* horizontal centering */
+  border-radius: 20px;
+
+}
+
+
+
+
+.card_job {
+  margin-top: 15px;
+  width: 150px;
+  border-radius: 40px;
+
+}
+
+.card-body {
+background-color: none;
+}
+
+.card-body h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.img-page3 {
+  height: 50px;
+  width: 50px;
+  align-items: left;
+}
+
+
+/* section2 */
+
+
+
+.sec3 {
+  border-radius: 8px;
+}
+
+.about_row {
+    background-color: #C1C1FF;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.gambar_about {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  align-items: center;
+  margin-left: 100px;
+  
+}
+
+
+
+
+
+.tulisan {
+  margin-top: 0px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: #252525;
+  float: right;
+  padding: 10%;
+
+}
+
+
+/* section3 */
+
+.career_blog {
+  margin-top: 5px;
+  align-items: center;
+  z-index: 1;
+  padding: 0 auto;
+  margin-bottom: 100px ;
+}
+
+.career_blog .card-text {
+  font-family: 'poppin', sans-serif;
+}
+
+.card-group .card {
+  border-style: none;
+}
+
+.card-group img {
+  cursor: pointer;
+}
+
+.card-body p {
+  cursor: pointer;
+}
+
+.career_blog .card-group {
+  margin-top: 40px;
+}
+
+.title_blog {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog {
+  position: relative;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.blog::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 30px;
+  margin-bottom: 25px;
+  background-color:#0000FE ;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+
+.blog::after{
+  width: 150px;
+ 
+}
+
+
+
+
+.card-body p {
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #C1C1FF;
+}
+
+.footer .container {
+  height: 30px;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  
+}
+
+
+/* media */
+@media (min-width: 992px) { 
+    .nav-link {
+        margin-right: 20px;
+        font-weight: 50;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 2px #0000FE solid;
+        margin:auto;
+     
+    }
+}
+
+
+
+
+
+/* SIGN IN */
+
+.form_sign {
+ margin-top: 450px;
+ position: fixed;
+
+}
+
+.form_sign, .btn {
+  margin-top: 20px;
+  
+}
+
+.form-group, .email, .password {
+  width: 400px;
+  margin-top: 80px;
+  z-index: 1;
+  font-family: 'poppins',sans-serif;
+  font-size: 14px;
+  
+}
+
+
+.gambar_sign {
+  float:right;
+  margin-left: 550px;
+  margin-top: -300px;
+}
+
+
+
+/* SIGN UP */
+
+.tulisan_signup {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.gambar_signup {
+  float:right;
+  margin-left: 550px;
+  display: inline;
+  margin-top: -400px;
+  
+}
+
+
+/* index */
+
+.main_page {
+  background-color:#C1C1FF;
+  height: 800px;
+  width: 100%;
+  margin-top: -10px;
+  background-size: cover;
+  margin-bottom: 50px;
+  
+}
+
+.title_page {
+  text-align: center;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+}
+
+.title_page p {
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 14px;
+}
+
+.search_job {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search_job button {
+  width: 200px;
+  height: 40px;
+  background-color: #0000FE;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+
+.search_job .form-select {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border-color:antiquewhite;
+  font-weight: 400;
+  font-family: 'poppin',sans-serif;
+  font-size: 14px;
+}
+
+.search_job .option value {
+  font-family: 'poppin',sans-serif;
+}
+
+.search_job .input {
+  width: 200px;
+  float:center;
+}
+
+.form-select:active {
+ border-color: rgb(0, 47, 255);
+}
+
+.form-select .value {
+  text-align: center;
+}
+
+.card_jobslist .card {
+  margin-top: 20px;
+  border-radius: 20px;
+  
+}
+
+.card:hover {
+  transform: translate3D(0,-5px,0) scale(1.01);
+  
+}
+
+
+
+.column .card {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+  float: center;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.199);
+}
+
+.main_page .row {
+  margin: 20px;
+}
+
+.row h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card_jobslist p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.btn-sm {
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 30px;
+  background-color: #C1C1FF;
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+.apply_job {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  
+}
+
+.apply_job h2 {
+  font-size: 28px;
+  font-family: 'poppins',sans-serif;
+  font-weight: bold;
+}
+
+
+.apply_job p {
+  font-size: 12px;
+  font-family: 'poppins',sans-serif;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.job_form {
+  margin-top: 30px;
+}
+
+
+
+
+
+.gambar_error {
+  width: 30%;
+  height: 30%;
+  float: center;
+  margin-left: 350px;
+
+}
+
+
+.insert-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+.insert_job input {
+  float:center;
+  align-items: center;
+  height: 80px;
+  width: 400px;
+  margin-top: 8px;
+  z-index: 1;
+  font-family: 'poppins',sans-serif;
+  font-size: 14px;
+ 
+
+}
+
+.insert_job label {
+  float:center;
+  align-items: center;
+  height: 20px;
+  width: 400px;
+  margin-top: 8px;
+  z-index: 1;
+  font-family: 'poppins',sans-serif;
+  font-size: 14px;
+  
+}
+
+.gambar_insert {
+  float:right;
+  margin-left: 550px;
+  display: inline;
+  margin-top: -700px;
+  
+}
+
+.gambar_admin {
+  float:right;
+  margin-left: 550px;
+  margin-top: 50px;
+}
