@@ -105,7 +105,7 @@
 
             echo "<td>";
             echo "<a href='edit_dashboard.php?id=".$siswa['id']."'><button >Edit</button></a>  ";
-            echo "<a href='proses_hapus.php?id=".$siswa['id']."'><button>Hapus</button></a>";
+            echo "<a href='proses_hapus_signup.php?id=".$siswa['id']."'><button>Hapus</button></a>";
             echo "</td>";
             echo "</tr>";
         }
