@@ -34,10 +34,13 @@
 
 <!--file proses-->
 <div class="col-lg ">
-          <div class="card bg-white shadow-lg p-3 mb-5 bg-white" style="margin-top: 110px; border-radius: 10px;"  >
+          <div class="card_white shadow-sm p-3 mb-5 bg-body rounded" style="margin-top: 110px; border-radius: 10px;"  >
             
             <div class="fill_contact">
-            <h4> Tell me everything </h4>
+            <h4> Contact Us </h4>
+            <p>To talk to a management for cooperation e-mail us at career.id@bhaktianindya.com.</p>
+            <p>For technical support issues, e-mail us at support@bhaktianindya.com.<p>
+            </p>
             </div>
            
              
