@@ -34,12 +34,20 @@
 
 <!--file proses-->
 
-<div class="container contact_us shadow p-3 mb-2 bg-white">
-<img src="../gambar/carrer.jpg" class="rounded float-end">
-</div>
-                
-    </form>
-</div>
-
+<<div class="col-lg ">
+          
+            
+            <div class="fill_career">
+            
+            <h4> Career Blog </h4>
+            <img src="../iraniaweb-main/gambar/work.jpg" style="float:left"; >
+            <br>
+            <p>How to best in place work</p>
+            </p>
+            </div>
+           
+             
+           
+          
 </body>
 </html>
