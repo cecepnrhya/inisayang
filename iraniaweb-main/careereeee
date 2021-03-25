@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css?v=<?php echo time();?>">
+    <title>SMK BHAKTI ANINDYA</title>
+  </head>
+  <body>
+
+<!--navigation bar-->
+<nav class="navbar shadow-sm p-2 mb-2 bg-white navbar-expand-lg navbar-light fixed-top">
+        <div class="container ">
+              <a class="navbar-brand" href="#"><img class="img-fluid img-page2" src="gambar/Group 17.png ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="home.php"><span class="sr-only"></span></a>
+                <a class="nav-link" href="login.php" hidden></a>
+                <a class="nav-link" href="https://bhaktianindya.sch.id/"></a>
+                <a class="nav-link" href="#"></a>
+                <a class="nav-link" href="#"></a>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+<!--file proses-->
+
+<div class="col-lg ">
+
+  <div class="fill_career">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1556978082-fc2023bb5081?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fHdvcmt8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1508105859382-b487af436eff?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmt8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1493020258366-be3ead1b3027?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya3xlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">I Would Be Mortified if Anyone Ever Read My Daily To-Do List</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1595285203796-2da1c77274e4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvcmt8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">A Psychological Trick to Evoke An Interesting Conversation</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+</div>         
+          
+</body>
+</html>
